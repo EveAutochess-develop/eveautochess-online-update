@@ -1,0 +1,11 @@
+# Pointer repo only — no hotupdate binaries
+*.pck
+*.zip
+*.exe
+*.apk
+content/
+packs/
+platform/
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,9 @@
+{
+  "protocol": 1,
+  "version": "202607.26.1",
+  "publishedAt": "2026-07-26T13:00:00+10:00",
+  "baseUrl": "https://huggingface.co/buckets/liketocode789/eveautochess/resolve/",
+  "entry": "res://game/main.tscn",
+  "shellCompatibilityId": "eveac-shell-v1",
+  "notes": "Initial pointer. Bucket empty of packs until first content publish from eveautochess-hf."
+}
