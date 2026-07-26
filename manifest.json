@@ -1,4 +1,12 @@
 {
-  "version": "202607.26.1",
-  "files": []
+  "version": "202607.26.3",
+  "files": [
+    {
+      "path": "packs/game.pck",
+      "sha256": "efd5cfbf579cbc7b24e26b7d9274a752a52c51b150d2ea723865915f9b17ad9f",
+      "size": 25804,
+      "kind": "pack",
+      "mountOrder": 10
+    }
+  ]
 }
