@@ -1,4 +1,4 @@
-# eveautochess-online-update · 仓库6（热更指向）
+# eveautochess-online-update · 仓库5（热更指向）
 
 GitHub **仅导向**仓。热更载荷在 Hugging Face Bucket，**不进本 git 仓**。
 
@@ -13,13 +13,14 @@ GitHub **仅导向**仓。热更载荷在 Hugging Face Bucket，**不进本 git 
 
 ## 壳 vs 内容（冻结边界）
 
-| 层 | 进安装包（仓库3 发布物） | 热更（本仓指向的 HF） |
+| 层 | 进安装包（EveAutoChess Releases） | 热更（本仓指向的 HF） |
 |----|-------------------------|----------------------|
 | Runtime 壳 | 引擎、Boot、下载器、版本门、最小 UI | **原则上永不因玩法更壳** |
 | Content / PCK | 可无或仅基线 | 场景、资源、绝大部分 GDScript、`packs/*.pck` |
 | 协议 | 壳读 `version.json` + `manifest` | 内容演进；壳忽略未知 JSON 字段 |
 
-硬规则：启动必须能走到「检查更新 → 挂载 pack → 进主游戏」，否则热更失败会黑屏。
+硬规则：启动必须能走到「检查更新 → 挂载 pack → 进主游戏」，否则热更失败会黑屏/灰屏。  
+灰屏与卡死回归清单（Autoload / 入口探测 / Parse Error）：设计仓 [`BUG_REGRESSION.md`](https://github.com/EveAutochess-develop/EveAutoChess-design/blob/main/docs/BUG_REGRESSION.md)。
 
 ## 协议 v1（双端倒 Y）
 
@@ -40,7 +41,7 @@ GitHub **仅导向**仓。热更载荷在 Hugging Face Bucket，**不进本 git 
 |----|------|
 | `eveautochess-hf` | **材料准备**（本地 staging）；确认后推 HF 桶 |
 | 本仓 `eveautochess-online-update` | **公开指针**；偶发同步 `version.json` / README，不堆二进制 |
-| `eveautochess-release` | 壳安装包；协议未破不重打 |
+| [EveAutoChess](https://github.com/EveAutochess-develop/EveAutoChess) Releases | 壳安装包；协议未破不重打 |
 | `eveautochess-dev` | Godot 开发；内容导出进 hf staging |
 | `eveautochess-design` | 规则手册权威 |
 

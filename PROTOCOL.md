@@ -55,7 +55,7 @@ Boot → GET version.json → (可选)改写 baseUrl
 ## 壳永不更（边界）
 
 - **只发 HF**：玩法、数值、场景、GDScript、美术、entry 变更。
-- **须重打壳（仓库3）**：改 Boot 网络协议、换 Godot 导出模板、权限/签名、引擎安全补丁。
+- **须重打壳（EveAutoChess Releases）**：改 Boot 网络协议、换 Godot 导出模板、权限/签名、引擎安全补丁。
 
 ## 材料仓
 
