@@ -1,9 +1,9 @@
-{
-  "protocol": 1,
-  "version": "202607.26.5",
-  "publishedAt": "2026-07-26T23:54:14+10:00",
-  "baseUrl": "https://huggingface.co/buckets/liketocode789/eveautochess/resolve/",
-  "entry": "res://game/main.tscn",
-  "shellCompatibilityId": "eveac-shell-v1",
-  "notes": "Remove Snake mini-game (hotupdate delete test)"
+﻿{
+    "protocol":  1,
+    "version":  "202607.27.2",
+    "publishedAt":  "2026-07-27T00:52:22+10:00",
+    "baseUrl":  "https://huggingface.co/buckets/liketocode789/eveautochess/resolve/",
+    "entry":  "res://scenes/main_menu.tscn",
+    "shellCompatibilityId":  "eveac-shell-v1",
+    "notes":  "UI/3D art port: main menu, HUD icons, ship GLBs, terrain/indicators"
 }
