@@ -1,9 +1,9 @@
 {
   "protocol": 1,
-  "version": "202607.26.3",
-  "publishedAt": "2026-07-26T23:45:24+10:00",
+  "version": "202607.26.4",
+  "publishedAt": "2026-07-26T23:52:20+10:00",
   "baseUrl": "https://huggingface.co/buckets/liketocode789/eveautochess/resolve/",
   "entry": "res://game/main.tscn",
   "shellCompatibilityId": "eveac-shell-v1",
-  "notes": "Main menu + Snake + Tetris; ESC/Back to menu"
+  "notes": "Add Breakout (弹球) for hotupdate test"
 }
