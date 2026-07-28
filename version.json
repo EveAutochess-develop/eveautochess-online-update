@@ -1,9 +1,9 @@
 ﻿{
     "protocol":  1,
-    "version":  "202607.27.10",
-    "publishedAt":  "2026-07-27T06:10:55+10:00",
+    "version":  "202607.29.02",
+    "publishedAt":  "2026-07-29T03:07:07+10:00",
     "baseUrl":  "https://huggingface.co/buckets/liketocode789/eveautochess/resolve/",
     "entry":  "res://scenes/main_menu.tscn",
     "shellCompatibilityId":  "eveac-shell-v1",
-    "notes":  "fix CheckBox apply_label_font parse error blocking mobile/PC entry"
+    "notes":  "shop meta row aspect fix; level box tight; small laser 453 icon; half-precision + fetters"
 }
