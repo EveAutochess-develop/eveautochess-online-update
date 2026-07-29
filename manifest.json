@@ -1,12 +1,33 @@
 ﻿{
-    "version":  "202607.29.03",
+    "version":  "202607.29.04",
     "files":  [
                   {
-                      "path":  "packs/game.pck",
-                      "sha256":  "6e906bbc2e59a6a61d739e8ed0ac0fcbd39cb66fcf98e25188f97e200a9abc4e",
-                      "size":  531278976,
+                      "path":  "packs/logic.pck",
+                      "sha256":  "5e7b62188aab937d72bf2c20131b6f7bfd36ce4aa9b78131ffcd21018fc2e98e",
+                      "size":  892152,
                       "kind":  "pack",
                       "mountOrder":  10
+                  },
+                  {
+                      "path":  "packs/ui.pck",
+                      "sha256":  "7e55b6c2602abdfe02e67d9c0aa8a2e9052c0a07ec094e982c258a31785e0f48",
+                      "size":  71454032,
+                      "kind":  "pack",
+                      "mountOrder":  20
+                  },
+                  {
+                      "path":  "packs/models.pck",
+                      "sha256":  "3dc3608c00f9ddc45e09b955080e794072bc941c85ee441e9e11c875d02097a6",
+                      "size":  203527632,
+                      "kind":  "pack",
+                      "mountOrder":  30
+                  },
+                  {
+                      "path":  "packs/audio.pck",
+                      "sha256":  "381a2b43a095ca18810fa0fb4cc58bbfe3e9e0f1d0064ae23e15d04de0fd6e60",
+                      "size":  224309420,
+                      "kind":  "pack",
+                      "mountOrder":  40
                   }
               ]
 }

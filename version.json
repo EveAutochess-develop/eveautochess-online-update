@@ -1,9 +1,9 @@
 ﻿{
     "protocol":  1,
-    "version":  "202607.29.03",
-    "publishedAt":  "2026-07-29T11:50:49+10:00",
+    "version":  "202607.29.04",
+    "publishedAt":  "2026-07-29T12:03:20+10:00",
     "baseUrl":  "https://huggingface.co/buckets/liketocode789/eveautochess/resolve/",
     "entry":  "res://scenes/main_menu.tscn",
     "shellCompatibilityId":  "eveac-shell-v1",
-    "notes":  "tonnage icons in res://; ResourceLoader-first art load; shop HUD + laser 453"
+    "notes":  "split packs logic/ui/models/audio; incremental sha skip; tonnage icons in ui.pck"
 }
