@@ -1,24 +1,24 @@
 ﻿{
-    "version":  "202607.29.05",
+    "version":  "202607.30.01",
     "files":  [
                   {
                       "path":  "packs/logic.pck",
-                      "sha256":  "5eabfd14df8f6fe8b1f92e4e09aa1cac77363af5c59d17416c89e8277361b1f0",
-                      "size":  892440,
+                      "sha256":  "8e23f01898dfe1a83cee434c30798bb13e10c36f0c9702767b1aa3c07e9e19f0",
+                      "size":  1144260,
                       "kind":  "pack",
                       "mountOrder":  10
                   },
                   {
                       "path":  "packs/ui.pck",
-                      "sha256":  "7e55b6c2602abdfe02e67d9c0aa8a2e9052c0a07ec094e982c258a31785e0f48",
-                      "size":  71454032,
+                      "sha256":  "c853cd88769ca6f5f9a8490513811a7822a7d67bd1a7b48fcfadfff7fff0b5e7",
+                      "size":  70364576,
                       "kind":  "pack",
                       "mountOrder":  20
                   },
                   {
                       "path":  "packs/models.pck",
-                      "sha256":  "3dc3608c00f9ddc45e09b955080e794072bc941c85ee441e9e11c875d02097a6",
-                      "size":  203527632,
+                      "sha256":  "ee7a47848b7aa4ba96fdc0dfff0b77bff8f4f828b017dc777ddfbca5bd1271ef",
+                      "size":  259562548,
                       "kind":  "pack",
                       "mountOrder":  30
                   },

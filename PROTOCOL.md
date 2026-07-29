@@ -1,4 +1,4 @@
-# EVE Autochess · 在线热更协议（指针仓速查）
+﻿# EVE Autochess · 在线热更协议（指针仓速查）
 
 > 载荷权威：HF 桶 [liketocode789/eveautochess](https://huggingface.co/buckets/liketocode789/eveautochess)  
 > Resolve：`https://huggingface.co/buckets/liketocode789/eveautochess/resolve/`  
@@ -33,7 +33,7 @@ Boot → GET version.json → (可选)改写 baseUrl
 
 ```json
 {
-  "version": "202607.29.04",
+  "version": "202607.30.01",
   "files": [
     {
       "path": "packs/logic.pck",
@@ -77,7 +77,8 @@ Boot → GET version.json → (可选)改写 baseUrl
 | audio | `packs/audio.pck` | 40 | `assets/audio/**` · `assets/textures/**` · `assets/skyboxes/**` |
 
 - **已废弃**以单体 `packs/game.pck` 为唯一载荷（旧客户端首遇新 manifest 会下满四包一次；本地残留 `game.pck` **不删**，新 manifest 不再列出）。
-- 改数值/脚本 → 通常只变 `logic.pck`；改舰模 → 只变 `models.pck`。
+- 改数值/脚本 / `visual.json`（含关削面修镂空）→ 通常只变 `logic.pck`；改舰模 → 只变 `models.pck`。
+- 当前指针版号以仓内 `version.json` 为准（落地时 **`202607.30.01`**）。
 
 ### 倒 Y 过滤
 
@@ -91,7 +92,7 @@ Boot → GET version.json → (可选)改写 baseUrl
 ## 壳永不更（边界）
 
 - **只发 HF**：玩法、数值、场景、GDScript、美术、entry、分包清单变更。
-- **须重打壳（EveAutoChess Releases / disv1）**：改 Boot / seed 多包逻辑、换 Godot 导出模板、权限/签名、引擎安全补丁、增删壳 Autoload。
+- **须重打壳（EveAutoChess Releases / disv1）**：改 Boot / seed 多包逻辑、换 Godot 导出模板、权限/签名、引擎安全补丁、增删壳 Autoload、同步壳 `DataStore` portrait/mesh API。
 
 ## 材料仓
 
