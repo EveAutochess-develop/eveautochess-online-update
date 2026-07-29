@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "202607.29.02",
+    "version":  "202607.29.03",
     "files":  [
                   {
                       "path":  "packs/game.pck",
-                      "sha256":  "9e172033f4224d2b4db415b5accf6f1c2614bf54863d6406df6ad87719d4ee52",
-                      "size":  531273016,
+                      "sha256":  "6e906bbc2e59a6a61d739e8ed0ac0fcbd39cb66fcf98e25188f97e200a9abc4e",
+                      "size":  531278976,
                       "kind":  "pack",
                       "mountOrder":  10
                   }
