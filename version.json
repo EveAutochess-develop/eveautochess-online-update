@@ -1,9 +1,9 @@
 ﻿{
     "protocol":  1,
-    "version":  "202607.29.04",
-    "publishedAt":  "2026-07-29T12:03:20+10:00",
+    "version":  "202607.29.05",
+    "publishedAt":  "2026-07-29T12:32:53+10:00",
     "baseUrl":  "https://huggingface.co/buckets/liketocode789/eveautochess/resolve/",
     "entry":  "res://scenes/main_menu.tscn",
     "shellCompatibilityId":  "eveac-shell-v1",
-    "notes":  "split packs logic/ui/models/audio; incremental sha skip; tonnage icons in ui.pck"
+    "notes":  "fix hull hollow: disable mesh decimate; solid materials; ResourceLoader texture exists"
 }

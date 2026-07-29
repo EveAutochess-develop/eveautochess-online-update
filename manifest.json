@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "202607.29.04",
+    "version":  "202607.29.05",
     "files":  [
                   {
                       "path":  "packs/logic.pck",
-                      "sha256":  "5e7b62188aab937d72bf2c20131b6f7bfd36ce4aa9b78131ffcd21018fc2e98e",
-                      "size":  892152,
+                      "sha256":  "5eabfd14df8f6fe8b1f92e4e09aa1cac77363af5c59d17416c89e8277361b1f0",
+                      "size":  892440,
                       "kind":  "pack",
                       "mountOrder":  10
                   },
